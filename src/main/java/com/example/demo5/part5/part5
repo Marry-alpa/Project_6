@@ -1,0 +1,63 @@
+Iteration 1 (i = 1):
+
+    Select the first unsorted element, 75.
+    Insert 75 into its correct position in the sorted part of the array.
+    Array state: { 13, 75, 12, 4, 18, 6, 9, 10, 7, 14, 15 }
+
+Iteration 2 (i = 2):
+
+    Select the next unsorted element, 12.
+    Insert 12 into its correct position in the sorted part of the array.
+    Array state: { 12, 13, 75, 4, 18, 6, 9, 10, 7, 14, 15 }
+
+Iteration 3 (i = 3):
+
+    Select the next unsorted element, 4.
+    Insert 4 into its correct position in the sorted part of the array.
+    Array state: { 4, 12, 13, 75, 18, 6, 9, 10, 7, 14, 15 }
+
+Iteration 4 (i = 4):
+
+    Select the next unsorted element, 18.
+    Insert 18 into its correct position in the sorted part of the array.
+    Array state: { 4, 12, 13, 18, 75, 6, 9, 10, 7, 14, 15 }
+
+Iteration 5 (i = 5):
+
+    Select the next unsorted element, 6.
+    Insert 6 into its correct position in the sorted part of the array.
+    Array state: { 4, 6, 12, 13, 18, 75, 9, 10, 7, 14, 15 }
+
+Iteration 6 (i = 6):
+
+    Select the next unsorted element, 9.
+    Insert 9 into its correct position in the sorted part of the array.
+    Array state: { 4, 6, 9, 12, 13, 18, 75, 10, 7, 14, 15 }
+
+Iteration 7 (i = 7):
+
+    Select the next unsorted element, 10.
+    Insert 10 into its correct position in the sorted part of the array.
+    Array state: { 4, 6, 9, 10, 12, 13, 18, 75, 7, 14, 15 }
+
+Iteration 8 (i = 8):
+
+    Select the next unsorted element, 7.
+    Insert 7 into its correct position in the sorted part of the array.
+    Array state: { 4, 6, 7, 9, 10, 12, 13, 18, 75, 14, 15 }
+
+Iteration 9 (i = 9):
+
+    Select the next unsorted element, 14.
+    Insert 14 into its correct position in the sorted part of the array.
+    Array state: { 4, 6, 7, 9, 10, 12, 13, 14, 18, 75, 15 }
+
+Iteration 10 (i = 10):
+
+    Select the next unsorted element, 15.
+    Insert 15 into its correct position in the sorted part of the array.
+    Array state: { 4, 6, 7, 9, 10, 12, 13, 14, 15, 18, 75 }
+
+Final Sorted Array
+
+{ 4, 6, 7, 9, 10, 12, 13, 14, 15, 18, 75 }
