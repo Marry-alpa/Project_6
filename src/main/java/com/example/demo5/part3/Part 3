@@ -1,0 +1,63 @@
+Iteration 1 (i = 0):
+
+    Find the minimum element in the range [0, 10]: 4
+    Swap 4 with the first element 13
+    Array state: { 4, 75, 12, 13, 18, 6, 9, 10, 7, 14, 15 }
+
+Iteration 2 (i = 1):
+
+    Find the minimum element in the range [1, 10]: 6
+    Swap 6 with 75
+    Array state: { 4, 6, 12, 13, 18, 75, 9, 10, 7, 14, 15 }
+
+Iteration 3 (i = 2):
+
+    Find the minimum element in the range [2, 10]: 7
+    Swap 7 with 12
+    Array state: { 4, 6, 7, 13, 18, 75, 9, 10, 12, 14, 15 }
+
+Iteration 4 (i = 3):
+
+    Find the minimum element in the range [3, 10]: 9
+    Swap 9 with 13
+    Array state: { 4, 6, 7, 9, 18, 75, 13, 10, 12, 14, 15 }
+
+Iteration 5 (i = 4):
+
+    Find the minimum element in the range [4, 10]: 10
+    Swap 10 with 18
+    Array state: { 4, 6, 7, 9, 10, 75, 13, 18, 12, 14, 15 }
+
+Iteration 6 (i = 5):
+
+    Find the minimum element in the range [5, 10]: 12
+    Swap 12 with 75
+    Array state: { 4, 6, 7, 9, 10, 12, 13, 18, 75, 14, 15 }
+
+Iteration 7 (i = 6):
+
+    Find the minimum element in the range [6, 10]: 13
+    No swap needed as 13 is already in place
+    Array state: { 4, 6, 7, 9, 10, 12, 13, 18, 75, 14, 15 }
+
+Iteration 8 (i = 7):
+
+    Find the minimum element in the range [7, 10]: 14
+    Swap 14 with 18
+    Array state: { 4, 6, 7, 9, 10, 12, 13, 14, 75, 18, 15 }
+
+Iteration 9 (i = 8):
+
+    Find the minimum element in the range [8, 10]: 15
+    Swap 15 with 75
+    Array state: { 4, 6, 7, 9, 10, 12, 13, 14, 15, 18, 75 }
+
+Iteration 10 (i = 9):
+
+    Find the minimum element in the range [9, 10]: 18
+    No swap needed as 18 is already in place
+    Array state: { 4, 6, 7, 9, 10, 12, 13, 14, 15, 18, 75 }
+
+Final Sorted Array
+
+{ 4, 6, 7, 9, 10, 12, 13, 14, 15, 18, 75 }
